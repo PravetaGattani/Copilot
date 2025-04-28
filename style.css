@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    padding: 10px 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo img {
+    height: 50px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    background-image: url('hero-bg.jpg'); /* Placeholder */
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+}
+.cta {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: lightyellow;
+    color: navy;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+.course-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+#register {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+#register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+#register-form input, #register-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#register-form button {
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+#register-form button:hover {
+    background-color: lightyellow;
+    color: navy;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: navy;
+    color: white;
+}
+.social-icons i {
+    margin: 5px;
+    color: white;
+}
